@@ -5,19 +5,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="icon" type="image/png" href="images/Shane.png">
+  <link rel="icon" type="image/png" href="images/logo.png">
   <link rel="stylesheet" href="vendors/owl-carousel/css/owl.carousel.min.css">
   <link rel="stylesheet" href="vendors/owl-carousel/css/owl.theme.default.css">
   <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="vendors/aos/css/aos.css">
   <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/7.2.96/css/materialdesignicons.min.css">
 </head>
 <body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
   <header id="header-section">
-    <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
+    <nav class="navbar navbar-expand-lg pl-3 pl-sm-0 bg" id="navbar">
     <div class="container">
       <div class="navbar-brand-wrapper d-flex w-100">
-        <img src="images/Shane.png" alt="">
+        <img src="images/Shane.png" alt="Shane Logo" style="width: 40px;; height: 40px; display:block;">
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="mdi mdi-menu navbar-toggler-icon"></span>
         </button> 
@@ -26,7 +28,7 @@
         <ul class="navbar-nav align-items-lg-center align-items-start ml-auto">
           <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
             <div class="navbar-collapse-logo">
-              <img src="images/digisolution.png" alt="">
+              <img src="images/Shane.png" alt="">
             </div>
             <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
@@ -39,10 +41,16 @@
             <a class="nav-link" href="#features-section">Layanan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#digital-marketing-section">Benefit</a>  
+            <a class="nav-link" href="#benefit-section">Benefit</a>  
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#target-section">Mitra</a>  
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#feedback-section">Portofolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-section">Kontak</a>
           </li>
           <li class="nav-item btn-contact-us pl-4 pl-lg-0">
             <button class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Contact Us</button>
@@ -54,159 +62,151 @@
   </header>
   <div class="banner" >
     <div class="container">
-      <h1 class="font-weight-semibold">Shane Digisolution</h1>
+      <h1 class="font-weight-semibold">
+        Shane<span class="text-info">.Digi</span>solution
+      </h1>
       <p>Solusi UMKM Go Digital</p>
-      <img src="images/digisolution.png" alt="" class="img-fluid">
+      <img src="images/homepage.png" class="img-fluid" style="width: 550px;height: auto;">
     </div>
   </div>
   <div class="content-wrapper">
     <div class="container">
-      <section class="features-overview" id="features-section" >
-        <div class="content-header">
-          <h2>Layanan Kami</h2>
-          <h6 class="section-subtitle text-muted">One theme that serves as an easy-to-use operational toolkit<br>that meets customer's needs.</h6>
+      <section class="features-overview py-5" id="features-section">
+        <div class="content-header text-center mb-5">
+          <h2 class="fw-bold">Layanan Kami</h2>
+          <h6 class="section-subtitle text-muted">
+            Solusi digital terintegrasi untuk mendukung perkembangan bisnis Anda.
+          </h6>
         </div>
-        <div class="d-md-flex justify-content-between">
-          <div class="grid-margin d-flex justify-content-start">
-            <div class="features-width">
-              <img src="images/Group12.svg" alt="" class="img-icons">
-              <h5 class="py-3">Speed<br>Optimisation</h5>
-              <p class="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-              <a href="#"><p class="readmore-link">Readmore</p></a>  
+        <div class="container">
+          <div class="row justify-content-center text-center">
+
+            <div class="col-6 col-md-4 col-lg">
+              <div class="mb-4">
+                <img src="images/home-1.png" alt="Digital Marketing" class="mb-3" width="64">
+                <h5 class="fw-semibold">Digital <br> Marketing</h5>
+                <p class="text-muted small">Strategi iklan & SEO untuk menjangkau lebih banyak pelanggan.</p>
+              </div>
             </div>
-          </div>
-          <div class="grid-margin d-flex justify-content-center">
-            <div class="features-width">
-              <img src="images/Group7.svg" alt="" class="img-icons">
-              <h5 class="py-3">SEO and<br>Backlinks</h5>
-              <p class="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-              <a href="#"><p class="readmore-link">Readmore</p></a>
+
+            <div class="col-6 col-md-4 col-lg">
+              <div class="mb-4">
+                <img src="images/home-5.png" alt="Pembuatan Website" class="mb-3" width="64">
+                <h5 class="fw-semibold">Pembuatan Website</h5>
+                <p class="text-muted small">Website modern & responsif untuk profil bisnis atau toko online.</p>
+              </div>
             </div>
-          </div>
-          <div class="grid-margin d-flex justify-content-end">
-            <div class="features-width">
-              <img src="images/Group5.svg" alt="" class="img-icons">
-              <h5 class="py-3">Content<br>Marketing</h5>
-              <p class="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-              <a href="#"><p class="readmore-link">Readmore</p></a>
+
+            <div class="col-6 col-md-4 col-lg">
+              <div class="mb-4">
+                <img src="images/home-2.png" alt="Sosial Media" class="mb-3" width="64">
+                <h5 class="fw-semibold">Sosial Media Manajemen</h5>
+                <p class="text-muted small">Kelola akun, posting rutin, dan analitik untuk tingkatkan brand.</p>
+              </div>
             </div>
-          </div>
-        </div>
-      </section>     
-      <section class="digital-marketing-service" id="digital-marketing-section">
-        <div class="row align-items-center">
-          <div class="col-12 col-lg-7 grid-margin grid-margin-lg-0" data-aos="fade-right">
-            <h3 class="m-0">We Offer a Full Range<br>of Digital Marketing Services!</h3>
-            <div class="col-lg-7 col-xl-6 p-0">
-              <p class="py-4 m-0 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-              <p class="font-weight-medium text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer</p>
-            </div>    
-          </div>
-          <div class="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0" data-aos="fade-left">
-            <img src="images/Group1.png" alt="" class="img-fluid">
-          </div>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-12 col-lg-7 text-center flex-item grid-margin" data-aos="fade-right">
-            <img src="images/Group2.png" alt="" class="img-fluid">
-          </div>
-          <div class="col-12 col-lg-5 flex-item grid-margin" data-aos="fade-left">
-            <h3 class="m-0">Leading Digital Agency<br>for  Business Solution.</h3>
-            <div class="col-lg-9 col-xl-8 p-0">
-              <p class="py-4 m-0 text-muted">Power-packed with impressive features and well-optimized, this template is designed to provide the best performance in all circumstances.</p>
-              <p class="pb-2 font-weight-medium text-muted">Its smart features make it a powerful stand-alone website building tool.</p>
+
+            <div class="col-6 col-md-4 col-lg">
+              <div class="mb-4">
+                <img src="images/home-3.png" alt="Desain & Konten" class="mb-3" width="64">
+                <h5 class="fw-semibold">Desain Grafis<br> & Konten</h5>
+                <p class="text-muted small">Logo, poster, video, dan konten kreatif untuk media promosi.</p>
+              </div>
             </div>
-            <button class="btn btn-info">Readmore</button>
+
+            <div class="col-6 col-md-4 col-lg">
+              <div class="mb-4">
+                <img src="images/home-4.png" alt="Support & Konsultasi" class="mb-3" width="64">
+                <h5 class="fw-semibold">Support & Konsultasi</h5>
+                <p class="text-muted small">IT support dan konsultasi digital agar bisnis tetap lancar.</p>
+              </div>
+            </div>
+
           </div>
         </div>
-      </section>     
-      <section class="case-studies" id="case-studies-section">
+      </section>
+      <section class="digital-marketing-service py-5" id="benefit-section">
+        <div class="container">
+
+          <!-- Benefit 1 -->
+          <div class="row align-items-center mb-5">
+            <div class="col-12 col-lg-7" data-aos="fade-right">
+              <h3 class="fw-bold">Satu Solusi untuk Semua<br>Kebutuhan Digital Anda</h3>
+              <div class="col-lg-9 col-xl-8 p-0">
+                <p class="py-3 m-0 text-muted">
+                  Dari marketing, website, desain, hingga konsultasi. Semua layanan tersedia dalam satu tempat agar bisnis lebih praktis dan efisien.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-5 text-center" data-aos="fade-left">
+              <img src="images/service-2.png" alt="Solusi Digital" class="img-fluid" style="height: 250px; width: auto;">
+            </div>
+          </div>
+
+          <!-- Benefit 2 -->
+          <div class="row align-items-center flex-row-reverse">
+            <div class="col-12 col-lg-7" data-aos="fade-left">
+              <h3 class="fw-bold">Tim Profesional<br>Harga Bersahabat</h3>
+              <div class="col-lg-9 col-xl-8 p-0">
+                <p class="py-3 m-0 text-muted">
+                  Dikerjakan oleh tim ahli berpengalaman dengan paket fleksibel, ramah untuk UMKM, dan tetap mendukung pertumbuhan bisnis Anda.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-5 text-center" data-aos="fade-right">
+              <img src="images/service-1.png" alt="Tim Profesional" class="img-fluid" style="height: 250px; width: auto;">
+            </div>
+          </div>
+        </div>
+      </section>  
+      <section class="case-target" id="target-section">
         <div class="row grid-margin">
           <div class="col-12 text-center pb-5">
-            <h2>Our case studies</h2>
-            <h6 class="section-subtitle text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum.</h6>
+            <h2>Mitra & Target</h2>
+            <h6 class="section-subtitle text-muted">
+              Kami hadir untuk mendukung berbagai jenis usaha dan organisasi agar berkembang di era digital.
+            </h6>
           </div>
+
+          <!-- UMKM -->
           <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in">
-            <div class="card color-cards">
-              <div class="card-body p-0">
-                <div class="bg-primary text-center card-contents">
-                  <div class="card-image">
-                    <img src="images/Group95.svg" class="case-studies-card-img" alt="">
-                  </div>  
-                  <div class="card-desc-box d-flex align-items-center justify-content-around">
-                    <div>
-                      <h6 class="text-white pb-2 px-3">Know more about Online marketing</h6>
-                      <button class="btn btn-white">Read More</button>
-                    </div>
-                  </div>
-                </div>   
-                <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Online Marketing</h6>
-                    <p>Seo, Marketing</p>
-                </div>
+            <div class="card text-center">
+              <div class="card-body bg-primary text-white rounded">
+                <img src="images/target-1.png" class="case-studies-card-img mb-3" alt="UMKM" width="60">
+                <h6 class="m-0 pb-1">UMKM</h6>
+                <p class="small">Go digital & tingkatkan penjualan</p>
               </div>
             </div>
           </div>
+
+          <!-- Startup -->
           <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="card color-cards">
-              <div class="card-body p-0">
-                <div class="bg-warning text-center card-contents">
-                  <div class="card-image">
-                      <img src="images/Group108.svg" class="case-studies-card-img" alt="">
-                  </div>  
-                  <div class="card-desc-box d-flex align-items-center justify-content-around">
-                    <div>
-                      <h6 class="text-white pb-2 px-3">Know more about Web Development</h6>
-                      <button class="btn btn-white">Read More</button>
-                    </div>
-                  </div>
-                </div>   
-                <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Web Development</h6>
-                    <p>Developing, Designing</p>
-                </div>
+            <div class="card text-center">
+              <div class="card-body bg-primary text-white rounded">
+                <img src="images/target-2.png" class="case-studies-card-img mb-3" alt="Startup" width="60">
+                <h6 class="m-0 pb-1">Startup</h6>
+                <p class="small">Branding & strategi digital efektif</p>
               </div>
             </div>
           </div>
+
+          <!-- Perusahaan -->
           <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
-            <div class="card color-cards">
-              <div class="card-body p-0">
-                <div class="bg-violet text-center card-contents">
-                  <div class="card-image">
-                      <img src="images/Group126.svg" class="case-studies-card-img" alt="">
-                  </div>  
-                  <div class="card-desc-box d-flex align-items-center justify-content-around">
-                    <div>
-                      <h6 class="text-white pb-2 px-3">Know more about Web Designing</h6>
-                      <button class="btn btn-white">Read More</button>
-                    </div>
-                  </div>
-                </div>   
-                <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Web Designing</h6>
-                    <p>Designing, Developing</p>
-                </div>
+            <div class="card text-center">
+              <div class="card-body bg-primary text-white rounded">
+                <img src="images/target-3.png" class="case-studies-card-img mb-3" alt="Perusahaan" width="60">
+                <h6 class="m-0 pb-1">Perusahaan</h6>
+                <p class="small">Website & digitalisasi operasional</p>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-3 stretch-card" data-aos="zoom-in" data-aos-delay="600">
-            <div class="card color-cards">
-              <div class="card-body p-0">
-                <div class="bg-success text-center card-contents">
-                  <div class="card-image">
-                      <img src="images/Group115.svg" class="case-studies-card-img" alt="">
-                  </div>  
-                  <div class="card-desc-box d-flex align-items-center justify-content-around">
-                    <div>
-                      <h6 class="text-white pb-2 px-3">Know more about Software Development</h6>
-                      <button class="btn btn-white">Read More</button>
-                    </div>
-                  </div>
-                </div>   
-                <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Software Development</h6>
-                    <p>Developing, Designing</p>
-                </div>
+
+          <!-- Komunitas & Organisasi -->
+          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0"" data-aos="zoom-in" data-aos-delay="600">
+            <div class="card text-center">
+              <div class="card-body bg-primary text-white rounded">
+                <img src="images/target-4.png" class="case-studies-card-img mb-3" alt="Komunitas" width="60">
+                <h6 class="m-0 pb-1">Komunitas</h6>
+                <p class="small">Identitas digital & promosi kegiatan</p>
               </div>
             </div>
           </div>
@@ -215,106 +215,51 @@
       <section class="customer-feedback" id="feedback-section">
         <div class="row">
           <div class="col-12 text-center pb-5">
-            <h2>What our customers have to say</h2>
-            <h6 class="section-subtitle text-muted m-0">Lorem ipsum dolor sit amet, tincidunt vestibulum.</h6>
+            <h2>Portofolio</h2>
+            <h6 class="section-subtitle text-muted m-0">Beberapa project yang pernah kami buat</h6>
           </div>
           <div class="owl-carousel owl-theme grid-margin">
               <div class="card customer-cards">
                 <div class="card-body">
                   <div class="text-center">
-                    <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                    <img src="images/porto-4.svg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Sistem Manajemen Berita Hasil Liputan Wartawan</p>
                     <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Tony Martinez</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                    <h6 class="card-title pt-3">Website</h6>
+                      <a href="https://shanedigital.site" target="_blank" rel="noopener noreferrer" class="btn btn-info"> Lihat Project</a>
                   </div>
                 </div>
               </div>
               <div class="card customer-cards">
                 <div class="card-body">
                   <div class="text-center">
-                    <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                    <img src="images/porto-2.svg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Virutal Assistant Informasi Program Studi</p>
                     <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Sophia Armstrong</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                    <h6 class="card-title pt-3">Website AI</h6>
+                      <a href="https://shanedigital.site" target="_blank" rel="noopener noreferrer" class="btn btn-info"> Lihat Project</a>
                   </div>
                 </div>
               </div>
               <div class="card customer-cards">
                 <div class="card-body">
                   <div class="text-center">
-                    <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                    <img src="images/porto-1.svg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Deteksi Kendaraan untuk Sistem Parkir Kampus</p>
                     <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Cody Lambert</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                    <h6 class="card-title pt-3">Website AI</h6>
+                      <a href="https://shanedigital.site" target="_blank" rel="noopener noreferrer" class="btn btn-info"> Lihat Project</a>
                   </div>
                 </div>
               </div>
               <div class="card customer-cards">
                 <div class="card-body">
                   <div class="text-center">
-                    <img src="images/face15.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                    <img src="images/porto-3.svg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Sistem Informasi Penyuluhan Kesehatan</p>
                     <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Cody Lambert</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face16.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Cody Lambert</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face1.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Tony Martinez</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Tony Martinez</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Sophia Armstrong</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Cody Lambert</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                    <h6 class="card-title pt-3">Website</h6>
+                      <a href="https://shanedigital.site" target="_blank" rel="noopener noreferrer" class="btn btn-info"> Lihat Project</a>
                   </div>
                 </div>
               </div>
@@ -322,13 +267,16 @@
         </div>
       </section>
       <section class="contact-us" id="contact-section">
-        <div class="contact-us-bgimage grid-margin" >
+        <div class="contact-us-bgimage grid-margin text-center">
           <div class="pb-4">
-            <h4 class="px-3 px-md-0 m-0" data-aos="fade-down">Do you have any projects?</h4>
-            <h4 class="pt-1" data-aos="fade-down">Contact us</h4>
+            <h4 class="px-3 px-md-0 m-0" data-aos="fade-down">Siap kembangkan bisnismu?</h4>
+            <h4 class="pt-1" data-aos="fade-down">Hubungi kami sekarang</h4>
+            <p class="pt-2 text-muted" data-aos="fade-up">
+              Tim kami siap membantu UMKM, startup, dan bisnis Anda untuk Go Digital lebih cepat & efektif.
+            </p>
           </div>
           <div data-aos="fade-up">
-            <button class="btn btn-rounded btn-outline-danger">Contact us</button>
+            <button class="btn btn-rounded btn-primary">Hubungi Kami</button>
           </div>          
         </div>
       </section>
@@ -337,41 +285,57 @@
           <div class="col-12 col-md-6 col-lg-3 grid-margin">
             <img src="images/Shane.png" alt="" class="pb-2">
             <div class="pt-2">
-              <p class="text-muted m-0">shanedigisolution@gmail.com</p>
-              <p class="text-muted m-0">906-179-8309</p>
+            <p class="font-weight-semibold">
+              Shane<span class="text-info">.Digi</span>solution
+            </p>
+            <p class="text-muted">Solusi UMKM Go Digital</p>
             </div>         
           </div>
           <div class="col-12 col-md-6 col-lg-3 grid-margin">
-            <h5 class="pb-2">Get in Touch</h5>
-            <p class="text-muted">Don’t miss any updates of our new templates and extensions.!</p>
-            <form>
-              <input type="text" class="form-control" id="Email" placeholder="Email id">
-            </form>
-            <div class="pt-3">
-              <button class="btn btn-dark">Subscribe</button>
-            </div>   
+            <h5 class="pb-2">Hubungi Kami</h5>
+              <b>Email</b>
+              <p class="text-muted m-0">admin@shanedigital.site</p>
+              <p class="text-muted m-0">shanedigisolution@gmail.com</p>
+              <b>Telepon</b>
+              <p class="text-muted m-0">906-179-8309</p>  
           </div>
           <div class="col-12 col-md-6 col-lg-3 grid-margin">
-            <h5 class="pb-2">Our Guidelines</h5>
+            <h5 class="pb-2">Pedoman Kami</h5>
             <a href="#"><p class="m-0 pb-2">Terms</p></a>   
             <a href="#" ><p class="m-0 pt-1 pb-2">Privacy policy</p></a> 
             <a href="#"><p class="m-0 pt-1 pb-2">Cookie Policy</p></a> 
             <a href="#"><p class="m-0 pt-1">Discover</p></a> 
           </div>
           <div class="col-12 col-md-6 col-lg-3 grid-margin">
-              <h5 class="pb-2">Our address</h5>
-              <p class="text-muted">518 Schmeler Neck<br>Bartlett. Illinois</p>
-              <div class="d-flex justify-content-center justify-content-md-start">
-                <a href="#"><span class="mdi mdi-facebook"></span></a>
-                <a href="#"><span class="mdi mdi-twitter"></span></a>
-                <a href="#"><span class="mdi mdi-instagram"></span></a>
-                <a href="#"><span class="mdi mdi-linkedin"></span></a>
-              </div>
+              <h5 class="pb-2">Sosial Media</h5>
+              <p class="text-muted">Kunjungi sosial media<br>kami sekarang!</p>
+          <div class="d-flex justify-content-center justify-content-md-start">
+            <a href="https://web.facebook.com/people/Shane-Digisolution/61580642654169/" 
+              class="mx-2 text-dark" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-facebook fa-lg"></i>
+            </a>
+
+            <a href="https://youtube.com/channel/UC52BTB9QSeCVzE_bu7mR56Q/" 
+              class="mx-2 text-dark" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-youtube fa-lg"></i>
+            </a>
+
+            <a href="https://www.instagram.com/shane.digisolution/" 
+              class="mx-2 text-dark" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-instagram fa-lg"></i>
+            </a>
+
+            <a href="https://www.tiktok.com/@shane.digisolution" 
+              class="mx-2 text-dark" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-tiktok fa-lg"></i>
+            </a>
+            <a href="#" class="mx-2 text-dark"><i class="fab fa-x fa-lg"></i></a>
+          </div>
           </div>
         </div>  
       </section>
       <footer class="border-top">
-        <p class="text-center text-muted pt-4">Copyright © 2019<a href="https://www.bootstrapdash.com/" class="px-1">Bootstrapdash.</a>All rights reserved.</p>
+        <p class="text-center text-muted pt-4">Copyright © 2025<a href="" class="px-1">Shane.Digisolution</a>All rights reserved.</p>
       </footer>
       <!-- Modal for Contact - us Button -->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
